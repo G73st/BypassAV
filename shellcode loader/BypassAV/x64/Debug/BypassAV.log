@@ -1,0 +1,4 @@
+﻿  BypassAV.cpp
+E:\tools\bypass\C++\BypassAV\BypassAV\BypassAV.cpp(289,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BypassAV.obj : warning LNK4254: 节“.data”(C0000040)合并到具有不同特性的“.text”(60000020)
+  BypassAV.vcxproj -> E:\tools\bypass\C++\BypassAV\x64\Debug\BypassAV.exe
