@@ -8,6 +8,7 @@
 ## 使用方法
 
 1.使用BypassAV.py加密shellcode
+
 2.将加密后的shellcode放入C++ shellcode加载器中编译
 
 ## 更新记录
